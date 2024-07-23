@@ -10,5 +10,5 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/pdf-chatbot.git
+git clone (https://github.com/chamanlal97196/chatbot_pdf/tree/main)
 cd pdf-chatbot
