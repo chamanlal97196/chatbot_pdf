@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Query PDF</h2>
+<form action="/query/" method="post">
+    <label for="filename">PDF Filename:</label>
+    <input type="text" id="filename" name="filename" required>
+    <br>
+    <label for="query">Your Query:</label>
+    <input type="text" id="query" name="query" required>
+    <br>
+    <button type="submit">Submit Query</button>
+</form>
+{% endblock %}
